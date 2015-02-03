@@ -1,15 +1,16 @@
-h1 New Comment
+h1
+  = t('comment.title')
 = form_for :comment, url: comments_path do |f|
   p
-    = f.label :username
+    = f.label t('comment.username')
     br
       = f.text_field :username
   p
-    = f.label :text
+    = f.label t('comment.text')
     br
       = f.text_area :text
   p
-    = f.submit
+    = f.submit t('comment.submit')
 br
 h1 Comments
 - @comments.each do |c|

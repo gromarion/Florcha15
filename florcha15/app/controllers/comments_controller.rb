@@ -1,16 +1,17 @@
 class CommentsController < ApplicationController
 	def new
-		@comments = Comment.all
+		@comments = Comment.all.order(created_at: 'DESC')
 	end
 
 	def create
-		Comment.create!(comment_params)
+		params[:comment][:text] = Obscenity.sanitize(params[:comment][:text])
+		Comment.create!(permit_comment_params)
 		redirect_to new_comment_path
 	end
 
 	private
 
-	def comment_params
+	def permit_comment_params
 		params.require(:comment).permit(:username, :text)
 	end
 end
