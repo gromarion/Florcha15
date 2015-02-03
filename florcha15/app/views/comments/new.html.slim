@@ -10,3 +10,13 @@ h1 New Comment
       = f.text_area :text
   p
     = f.submit
+br
+h1 Comments
+- @comments.each do |c|
+  h3
+    = c.username
+  p
+    = c.text
+  span
+    = c.created_at
+  br
