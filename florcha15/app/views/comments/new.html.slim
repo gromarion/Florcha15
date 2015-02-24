@@ -1,15 +1,15 @@
-h1
-  = t('comment.title')
-= form_for :comment, url: comments_path do |f|
+.row
+  h1.medium
+    = t('comment.title')
   p
-    = f.label t('comment.username')
-    br
+    = t('comment.send_your_comment')
+  = form_for :comment, url: comments_path do |f|
+    p
+      = f.label t('comment.username')
       = f.text_field :username
-  p
-    = f.label t('comment.text')
-    br
+    p
+      = f.label t('comment.text')
       = f.text_area :text
-  p
-    = f.submit t('comment.submit')
-br
+    p
+      = f.submit t('comment.submit')
 = render 'comments'

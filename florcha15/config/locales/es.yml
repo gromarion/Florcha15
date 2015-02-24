@@ -1,7 +1,9 @@
 es:
+  application:
+    title: Mis Quinces
   comment:
-    title: MENSAJES
-    send_your_comment: ¡Mandale un comentario a Flor vos también!
+    title: Mensajes
+    send_your_comment: ¡Mandale un mensaje a Flor vos también!
     username: Nombre
     text: Comentario
     submit: Enviar
@@ -37,3 +39,13 @@ es:
       message_link: mensaje
   footer:
     info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015'
+  invited_stars:
+    title: ESTRELLAS INVITADAS
+    carlitos: Carlitos
+    mariela: Mariela
+    octi: Octi
+    ivan: Iván
+    mario: Mario
+    stella: Stella
+    german: Germán
+    fede: Fede

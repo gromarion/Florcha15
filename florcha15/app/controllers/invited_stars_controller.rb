@@ -1,0 +1,2 @@
+class InvitedStarsController < ApplicationController
+end

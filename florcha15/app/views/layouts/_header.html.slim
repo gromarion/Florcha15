@@ -1,21 +1,25 @@
-.contain-to-grid.sticky
-	nav.top-bar data-options=('sticky_on: large') data-topbar='' role='navigation'
+.contain-to-grid.sticky.navbar
+	nav.top-bar.navbar data-options=('sticky_on: large') data-topbar='' role='navigation'
 	  ul.title-area
 	    li.name
-	      h1
-	        a href=root_path
+	      h2
+	        a.border-left href=root_path
 	        	= t('navbar.home')
 	  section.top-bar-section
 	    /! Right Nav Section
 	    ul.right
 	      li
-	      	a href='#'
+	      	a.navbar.border-left href='#'
 	      		= t('navbar.invited_stars')
-	      li
-	        a href=new_comment_path
+	      li.navbar
+	        a.navbar.border-left.border-right href=new_comment_path
 	        	= t('navbar.messages')
 	    /! Left Nav Section
 	    ul.left
 	      li
-	        a href=party_index_path
+	        a.navbar.border-left.border-right href=party_index_path
 	        	= t('navbar.the_party')
+.row
+  large-12.columns
+    h1.center.large
+      = t('application.title')

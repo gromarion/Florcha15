@@ -15,10 +15,39 @@
  *= require_self
  */
 
-.footer-info {
+.center {
 	text-align: center;
 }
 
 .message {
 	border: 1px solid;
+}
+
+#comment_text {
+	resize: none;
+}
+
+.navbar {
+	background: #FF00A5 !important;
+}
+
+.border-left {
+	border-left: 1px solid;
+}
+
+.border-right {
+	border-right: 1px solid;
+}
+
+body h1 {
+  font-family: 'PR8 Charade', arial;
+  color: #FF00A5;
+}
+
+.large {
+	font-size: 7rem;
+}
+
+.medium {
+	font-size: 5rem;
 }
