@@ -6,5 +6,5 @@ Obscenity.configure do |config|
   											'pelotudo', 'pelotuda', 'pelotudos', 'pelotudas',
   											'boludos', 'boludas', 'boludo', 'boluda', 'choto',
   											'chota', 'chotos', 'chotas', 'orto', 'ortos', 'putear',
-  											'puteadas']
+  											'puteadas', 'reputa', 'reconcha', 'reputisima']
 end

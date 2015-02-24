@@ -1,7 +1,39 @@
 es:
   comment:
-    title: Comentarios
+    title: MENSAJES
     send_your_comment: ¡Mandale un comentario a Flor vos también!
     username: Nombre
     text: Comentario
     submit: Enviar
+    ago: Hace
+  datetime:
+    distance_in_words:
+      x_days:
+        one: 1 día
+        other: '%{count} días'
+      about_x_hours:
+        one: aproximadamente 1 hora
+        other: 'aproximadamente %{count} horas'
+      less_than_x_minutes: menos de un minuto
+      x_minutes:
+        one: 1 minuto
+        other: '%{count} minutos'
+  navbar:
+    home: INICIO
+    the_party: LA FIESTA
+    invited_stars: ESTRELLAS INVITADAS
+    messages: MENSAJES
+  party:
+    party_section:
+      title: LA FIESTA
+      info: Te espero el XXX de Junio a las XXX en XXX
+    how_to_get:
+      title: CÓMO LLEGAR
+      info: Explicación de cómo llegar al salón.
+    dont_drive_drunk: 'SI BEBE, NO CONDUZCA'
+    if_rains:
+      title: SI LLUEVE
+      info: '¡No se suspende por lluvia! Pero si sabés de alguna cábala para que no llueva, ¡dejanos un %{message}!'
+      message_link: mensaje
+  footer:
+    info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015'

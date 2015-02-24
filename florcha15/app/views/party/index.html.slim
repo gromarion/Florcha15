@@ -1,0 +1,26 @@
+.row
+	.large-4.columns
+	.large-8.columns
+		h4
+			= t('party.party_section.title')
+		.row
+			.large-12.columns
+        p
+          = t('party.party_section.info')
+.row
+  .large-8.columns
+		h4
+			= t('party.how_to_get.title')
+		.row
+			.large-12.columns
+        p
+          = t('party.how_to_get.info')
+  .large-4.columns
+  .large-8.columns
+    h4
+      = t('party.if_rains.title')
+    .row
+      .large-12.columns
+        p
+          = t('party.if_rains.info', message: link_to(t('party.if_rains.message_link'), new_comment_path)).html_safe
+  .large-4.columns

@@ -1,6 +1,10 @@
 class CommentsController < ApplicationController
+	def index
+		fetch_comments
+	end
+
 	def new
-		@comments = Comment.all.order(created_at: 'DESC')
+		fetch_comments
 	end
 
 	def create
@@ -13,5 +17,10 @@ class CommentsController < ApplicationController
 
 	def permit_comment_params
 		params.require(:comment).permit(:username, :text)
+	end
+
+	def fetch_comments
+		@comments = Comment.all.order(created_at: 'DESC')
+		@comments = [] if @comments == nil
 	end
 end
