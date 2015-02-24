@@ -3,9 +3,9 @@
     .large-12.columns
       .row
         .large-12.columns.small-3.message
-          h3
+          h1.small
             = c.username
-          p
+          p.italic
             = c.text
           span
             = "#{t('comment.ago')} #{time_ago_in_words(c.created_at)}"
