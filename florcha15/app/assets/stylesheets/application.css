@@ -100,6 +100,9 @@ body h1 {
   left: 0;
   right: 0;
 	text-align: center;
+}
+
+.shadow-text {
 	text-shadow: 2px 2px #000;
 }
 
@@ -108,6 +111,27 @@ body h1 {
 	border-color: #FF00A5;
 	width: 100%;
 	height: 500px;
+}
+
+.message-button {
+	background-color: #FF00A5;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	height: 100px;
+	width: 150px;
+	font-size: 1.5rem;
+}
+
+.name {
+	width: 25% !important;
+	display: inline-block !important;
+}
+
+.comment {
+	width: 50%;
+	height: 100px;
+	display: inline-block;
 }
 
 #owl .item {
