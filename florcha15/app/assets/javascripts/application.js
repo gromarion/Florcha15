@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require foundation
 //= require owl.carousel
 //= require_tree .
@@ -21,6 +20,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
+  console.log('ready')
   var owl = $('#owl');
   owl.owlCarousel({
       items : 1, //1 items above 1000px browser width

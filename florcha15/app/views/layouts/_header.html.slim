@@ -11,8 +11,7 @@
 	      	a.pink.border-left href='#'
 	      		= t('navbar.invited_stars')
 	      li.pink
-	        a.pink.border-left.border-right href=new_comment_path
-	        	= t('navbar.messages')
+	        = link_to t('navbar.messages'), new_comment_path, class: 'pink border-left border-right'
 	    ul.left
 	      li
 	        a.pink.border-left.border-right href=party_index_path
