@@ -1,5 +1,5 @@
-.contain-to-grid.sticky.navbar
-	nav.top-bar.navbar data-options=('sticky_on: large') data-topbar='' role='navigation'
+.contain-to-grid.sticky.pink
+	nav.top-bar.pink data-options=('sticky_on: large') data-topbar='' role='navigation'
 	  ul.title-area
 	    li.name
 	      h2
@@ -8,16 +8,23 @@
 	  section.top-bar-section
 	    ul.right
 	      li
-	      	a.navbar.border-left href='#'
+	      	a.pink.border-left href='#'
 	      		= t('navbar.invited_stars')
-	      li.navbar
-	        a.navbar.border-left.border-right href=new_comment_path
+	      li.pink
+	        a.pink.border-left.border-right href=new_comment_path
 	        	= t('navbar.messages')
 	    ul.left
 	      li
-	        a.navbar.border-left.border-right href=party_index_path
+	        a.pink.border-left.border-right href=party_index_path
 	        	= t('navbar.the_party')
-.row
-  large-12.columns
-    h1.center.large
-      = t('application.title')
+#owl.owl-carousel.owl-theme
+  .item
+    = image_tag 'back1.png', class: 'background'
+  .item
+    = image_tag 'back2.png', class: 'background'
+  .item
+    = image_tag 'back3.png', class: 'background'
+  .item
+    = image_tag 'back4.png', class: 'background'
+h1.application-title.large
+  = t('application.title')

@@ -1,6 +1,6 @@
 es:
   application:
-    title: Mis Quinces
+    title: Mis Quince
   comment:
     title: Mensajes
     send_your_comment: ¡Mandale un mensaje a Flor vos también!
@@ -28,7 +28,7 @@ es:
   party:
     party_section:
       title: LA FIESTA
-      info: Te espero el XXX de Junio a las XXX en XXX
+      info: Te espero el 27 de Junio a las XXX en XXX
     how_to_get:
       title: CÓMO LLEGAR
       info: Explicación de cómo llegar al salón.
@@ -41,11 +41,18 @@ es:
     info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015'
   invited_stars:
     title: ESTRELLAS INVITADAS
-    carlitos: Carlitos
-    mariela: Mariela
+    carlitos: CARLOS
+    mariela: MARIELA
     octi: Octi
     ivan: Iván
     mario: Mario
     stella: Stella
     german: Germán
     fede: Fede
+  welcome:
+    the_party: LA FIESTA
+    party_address: 27 de Junio a las XXX en XXX. La entrada se encuentra en XXX.
+    my_parents: MIS PAPIS
+    thanks: ¡Gracias por todo!
+    rsvp: CONFIRMAR ASISTENCIA
+    rsvp_info: 'Para confirmar tu asistencia, por favor llamanos o mandanos un mail a XXX o XXX.'
