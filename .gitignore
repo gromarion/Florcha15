@@ -6,8 +6,8 @@
 Icon
 tmp/*
 log/*
-/tmp/*
-/log/*
+./tmp/*
+./log/*
 
 # Thumbnails
 ._*
