@@ -48116,3 +48116,596 @@ Started GET "/assets/back2-a1b0f63543c5589908eb19d25cd84606.png" for 201.163.84.
 
 
 Started GET "/assets/back4-352bd749e6d32399723ba565f5ca609d.png" for 74.145.113.71 at 2015-03-01 11:18:47 -0300
+
+
+Started GET "/" for 179.144.69.234 at 2015-03-01 11:32:54 -0300
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.0) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.0) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.0) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.0) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.0) lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  activerecord (4.2.0) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.0) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.0) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (40.8ms)
+
+
+Started GET "/" for 174.83.160.53 at 2015-03-01 11:36:26 -0300
+
+ActiveRecord::NoDatabaseError (FATAL:  database "misquinceflor" does not exist
+):
+  activerecord (4.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:661:in `rescue in connect'
+  activerecord (4.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+  activerecord (4.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:436:in `new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:446:in `checkout_new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:565:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.0) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.0) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (34.7ms)
+
+
+Started GET "/" for 155.3.181.4 at 2015-03-01 11:37:02 -0300
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (40.1ms)
+  [1m[36m (67.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (9.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20150203005430)
+  [1m[35m (6.0ms)[0m  BEGIN
+  [1m[36m (36.4ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "username" character varying, "text" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (23.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150203005430"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (6.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (5.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'comments'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/" for 7.193.149.228 at 2015-03-01 11:37:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (89.3ms)
+  Rendered layouts/_header.html.slim (22.3ms)
+  Rendered layouts/_footer.html.slim (5.2ms)
+Completed 200 OK in 862ms (Views: 861.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/owl.carousel-1dea9dc5e3b55fa2af2250dda36bdbc2.css?body=1" for 233.34.130.16 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 22.232.79.26 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/owl.theme-e9b5a640c9b71fd8cf3781cc0ac9c2ac.css?body=1" for 3.253.58.211 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/fonts-45deda7c1b7888cca0dbb9cab49bfbe5.css?body=1" for 22.107.50.121 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/invited_stars-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 105.173.254.19 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/party-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 74.233.16.23 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation-b05586dc9846e63d1d5ebc5a54daa4d3.css?body=1" for 173.71.174.234 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.128.109.203 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/application-02d89031e0cb81466461ff283e4590f1.css?body=1" for 209.163.27.59 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 43.209.87.47 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 93.71.89.108 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 123.207.110.75 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 8.51.39.1 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 137.62.74.157 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 88.160.180.134 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 212.246.137.76 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 9.95.117.251 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 176.200.154.215 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 64.239.212.16 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 237.235.133.51 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 168.162.80.130 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 160.151.178.181 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 59.200.148.192 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 13.27.81.118 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 12.95.164.112 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 31.90.25.232 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 43.188.29.11 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 68.98.179.72 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 160.107.221.129 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 72.109.186.192 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/owl.carousel-920566555cc905dc84ba389bd36bfa10.js?body=1" for 123.167.204.133 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/invited_stars-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 211.181.208.108 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 54.6.200.239 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/party-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 18.132.50.21 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/back1-56a219cddcaca6136a243879db485672.png" for 135.216.135.8 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/application-2fafd9512d629d996b1f520b50e74184.js?body=1" for 133.223.116.174 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/back2-a1b0f63543c5589908eb19d25cd84606.png" for 7.193.47.240 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/back3-a86470cdcb0487a8b64b1ef0b5be0a7f.png" for 213.69.201.158 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/mariela-2e1e20c792df607088ed9f1fc019f662.png" for 171.10.181.34 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/back4-352bd749e6d32399723ba565f5ca609d.png" for 46.221.221.22 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/carlitos-9a72657eabdd7a44694d1bee1999c26e.png" for 40.55.159.150 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/assets/PR8_Charade-a3e5662d67bae946c28733e9755b0d76.ttf" for 173.249.61.60 at 2015-03-01 11:37:31 -0300
+
+
+Started GET "/comments/new" for 123.186.221.123 at 2015-03-01 11:37:33 -0300
+Processing by CommentsController#new as HTML
+  [1m[35mComment Load (19.2ms)[0m  SELECT "comments".* FROM "comments"  ORDER BY "comments"."created_at" DESC
+  Rendered comments/_comments.html.slim (29.8ms)
+  Rendered comments/new.html.slim within layouts/application (51.8ms)
+  Rendered layouts/_header.html.slim (1.6ms)
+  Rendered layouts/_footer.html.slim (0.2ms)
+Completed 200 OK in 406ms (Views: 381.2ms | ActiveRecord: 21.5ms)
+
+
+Started GET "/assets/owl.theme-e9b5a640c9b71fd8cf3781cc0ac9c2ac.css?body=1" for 60.177.232.236 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/owl.carousel-1dea9dc5e3b55fa2af2250dda36bdbc2.css?body=1" for 65.64.15.192 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation-b05586dc9846e63d1d5ebc5a54daa4d3.css?body=1" for 61.136.89.159 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/fonts-45deda7c1b7888cca0dbb9cab49bfbe5.css?body=1" for 197.120.157.79 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/invited_stars-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 165.152.210.59 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 155.133.194.87 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/party-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 124.84.222.98 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 174.50.135.224 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/application-02d89031e0cb81466461ff283e4590f1.css?body=1" for 183.216.155.122 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 221.68.27.122 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 149.38.107.150 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 131.102.207.170 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 66.129.49.92 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 13.210.17.202 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 225.231.51.131 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 81.63.123.194 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 3.152.150.238 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 15.200.202.90 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 96.138.4.199 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 118.97.55.165 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 159.227.55.241 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 170.23.184.200 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 8.236.139.241 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 86.58.204.90 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 79.178.249.0 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 152.127.212.226 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 128.219.141.93 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 195.178.58.188 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 131.107.231.179 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/owl.carousel-920566555cc905dc84ba389bd36bfa10.js?body=1" for 76.92.74.216 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 30.232.199.116 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/invited_stars-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 160.184.171.5 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/party-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 150.52.54.144 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 57.41.143.51 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/application-2fafd9512d629d996b1f520b50e74184.js?body=1" for 235.66.87.113 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/back1-56a219cddcaca6136a243879db485672.png" for 132.171.128.239 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/back2-a1b0f63543c5589908eb19d25cd84606.png" for 29.212.99.61 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/back4-352bd749e6d32399723ba565f5ca609d.png" for 58.237.107.148 at 2015-03-01 11:37:34 -0300
+
+
+Started GET "/assets/back3-a86470cdcb0487a8b64b1ef0b5be0a7f.png" for 61.82.80.154 at 2015-03-01 11:37:34 -0300
+
+
+Started POST "/comments" for 235.44.103.9 at 2015-03-01 11:37:41 -0300
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ROKzbVNvsPnTy/TGhOyCv1UDZw5iFWlF44OaDJFRWH5yEGZcY11bB/zRWSvQwv93hbgPMcYAIfGYYKNd8Mb1uQ==", "comment"=>{"username"=>"Germu", "text"=>"holi!"}, "commit"=>"Enviar"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.4ms)[0m  INSERT INTO "comments" ("username", "text", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["username", "Germu"], ["text", "holi!"], ["created_at", "2015-03-01 14:37:41.067811"], ["updated_at", "2015-03-01 14:37:41.067811"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comments/new
+Completed 302 Found in 54ms (ActiveRecord: 28.9ms)
+
+
+Started GET "/comments/new" for 227.253.169.85 at 2015-03-01 11:37:41 -0300
+Processing by CommentsController#new as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"  ORDER BY "comments"."created_at" DESC
+  Rendered comments/_comments.html.slim (1.9ms)
+  Rendered comments/new.html.slim within layouts/application (8.1ms)
+  Rendered layouts/_header.html.slim (1.2ms)
+  Rendered layouts/_footer.html.slim (0.2ms)
+Completed 200 OK in 393ms (Views: 392.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation-b05586dc9846e63d1d5ebc5a54daa4d3.css?body=1" for 209.250.225.191 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/owl.carousel-1dea9dc5e3b55fa2af2250dda36bdbc2.css?body=1" for 33.106.254.155 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/owl.theme-e9b5a640c9b71fd8cf3781cc0ac9c2ac.css?body=1" for 158.244.112.10 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/comments-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 104.116.205.68 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/party-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 104.123.71.244 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/invited_stars-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 234.144.254.30 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/fonts-45deda7c1b7888cca0dbb9cab49bfbe5.css?body=1" for 178.49.48.244 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/welcome-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 204.59.3.235 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/application-02d89031e0cb81466461ff283e4590f1.css?body=1" for 104.24.93.44 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 66.213.251.121 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 242.156.60.152 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 211.35.222.73 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 209.254.18.135 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 139.158.232.190 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 146.112.15.125 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 38.7.230.105 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 97.16.135.232 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 156.231.16.90 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 205.9.139.139 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 224.20.10.161 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 224.166.77.51 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 5.170.231.208 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 126.81.131.139 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 2.103.172.0 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 83.85.230.159 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 222.107.148.237 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 161.91.209.197 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 163.226.75.197 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 143.148.138.183 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/owl.carousel-920566555cc905dc84ba389bd36bfa10.js?body=1" for 166.158.184.131 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/comments-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 53.155.254.185 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/invited_stars-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 93.2.183.160 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/party-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 14.10.107.169 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/welcome-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 103.109.11.205 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/application-2fafd9512d629d996b1f520b50e74184.js?body=1" for 251.228.156.35 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/back1-56a219cddcaca6136a243879db485672.png" for 111.14.188.201 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/back2-a1b0f63543c5589908eb19d25cd84606.png" for 61.102.28.77 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/back4-352bd749e6d32399723ba565f5ca609d.png" for 25.61.224.125 at 2015-03-01 11:37:41 -0300
+
+
+Started GET "/assets/back3-a86470cdcb0487a8b64b1ef0b5be0a7f.png" for 253.160.49.15 at 2015-03-01 11:37:41 -0300
