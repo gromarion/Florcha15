@@ -9,14 +9,17 @@ class CommentsController < ApplicationController
 
 	def create
 		params[:comment][:text] = Obscenity.sanitize(params[:comment][:text])
-		Comment.create!(permit_comment_params)
+		Comment.create!(
+			username: current_user.full_name,
+			text: permit_comment_params
+		)
 		redirect_to new_comment_path
 	end
 
 	private
 
 	def permit_comment_params
-		params.require(:comment).permit(:username, :text)
+		params.require(:comment).permit(:text)
 	end
 
 	def fetch_comments
