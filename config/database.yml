@@ -9,7 +9,7 @@ development:
 production:
   adapter: postgresql
   encoding: unicode
-  database: dfont2t1vecqn0
+  database: misquinceflor
   pool: 5
-  username: yeifteoqzuevte
-  password: jHmaSX0eJo3_Qi2-05BR9kBbtv
+  username: postgres
+  password: postgres
