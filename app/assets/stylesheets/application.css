@@ -155,6 +155,19 @@ body h1 {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.facebook-logo {
+	width: 100px;
+}
+
+.facebook {
+	display: inline-block;
+}
+
+.footer {
+	padding: 10px 0px 10px 0px;
+	color: white;
+}
+
 @media only screen { } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { p { font-size: 1.2em; } } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
