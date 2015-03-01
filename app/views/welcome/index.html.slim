@@ -1,23 +1,26 @@
 .large-12.columns.lightgrey
   h2.tiny.center.grey-text
     = t('welcome.the_party')
-  p.center.grey-text
+  .center.grey-text
     = t('welcome.party_address')
-.large-12.columns
+.large-12.small-12.columns
   h2.tiny.center.grey-text
     = t('welcome.my_parents')
-  p.center.grey-text.minusculus
+  .center.grey-text.minusculus
     = t('welcome.thanks')
-  .large-6.columns.center
-  	= image_tag 'carlitos.png', class: 'parent_photo'
-  	p.center.tiny.grey-text
-  	  = t('invited_stars.carlitos')
-  .large-6.columns.center
-    = image_tag 'mariela.png', class: 'parent_photo'
-    p.center.tiny.grey-text
-      = t('invited_stars.mariela')
+  br
+  .row
+    .large-12.small-12.columns
+      .large-6.small-6.columns.center
+  	    = image_tag 'carlitos.png', class: 'parent_photo'
+  	    p.center.grey-text
+  	      = t('invited_stars.carlitos')
+      .large-6.small-6.columns.center
+        = image_tag 'mariela.png', class: 'parent_photo'
+        p.center.grey-text
+          = t('invited_stars.mariela')
 .large-12.columns.pink
   h2.tiny.center.white-text
     = t('welcome.rsvp')
-  p.white-text.center
+  .white-text.center
     = t('welcome.rsvp_info')
