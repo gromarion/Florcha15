@@ -1,6 +1,7 @@
 es:
   application:
     title: Mis Quince
+    logout: "%{name} | Cerrar sesión"
   comment:
     title: Mensajes
     send_your_comment: '¡Mandale un mensaje a Flor vos también, iniciá sesión con Facebook ahora!'

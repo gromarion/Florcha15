@@ -10,8 +10,11 @@
 	      li
 	      	a.pink.border-left href='#'
 	      		= t('navbar.invited_stars')
-	      li.pink
+	      li
 	        = link_to t('navbar.messages'), new_comment_path, class: 'pink border-left border-right'
+        - if current_user.present?
+          li
+            = link_to t('application.logout', name: current_user.name), destroy_user_session_path, clas: 'pink border-right'
 	    ul.left
 	      li
 	        a.pink.border-left.border-right href=party_index_path
