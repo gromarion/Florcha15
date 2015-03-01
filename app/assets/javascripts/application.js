@@ -27,6 +27,7 @@ $(document).ready(function() {
       itemsDesktop : [1000, 1], //5 items between 1000px and 901px
       itemsDesktopSmall : [900, 1], // betweem 900px and 601px
       itemsTablet: [600, 1], //2 items between 600 and 0
-      itemsMobile : true // itemsMobile disabled - inherit from itemsTablet option
+      itemsMobile : true, // itemsMobile disabled - inherit from itemsTablet option
+      autoPlay: true
   });
 });

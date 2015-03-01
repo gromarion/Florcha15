@@ -36,6 +36,8 @@ gem 'obscenity'
 gem 'foundation-rails'
 gem 'owlcarousel-rails'
 gem 'rails_12factor'
+gem 'omniauth-facebook'
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
