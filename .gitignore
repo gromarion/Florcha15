@@ -4,7 +4,8 @@
 
 # Icon must end with two \r
 Icon
-
+tmp/*
+log/*
 
 # Thumbnails
 ._*
