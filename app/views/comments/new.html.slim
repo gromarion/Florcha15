@@ -1,10 +1,10 @@
 .row
   - if current_user.present?
-    = form_for :comment, url: comments_path do |f|
-      span
-        = f.label t('comment.text')
-        = f.text_area :text, class: 'comment'
-        = f.submit t('comment.submit'), class: 'button message-button'
+    = form_for :comment, url: comments_path, html: { class: 'center' } do |f|
+      .row
+        .large-6.small-6.columns.center
+          = f.text_area :text, class: 'comment', placeholder: t('comment.placeholder')
+          = f.submit t('comment.submit'), class: 'button message-button right'
   - else
     .row.center
       .large-12.small-12.columns

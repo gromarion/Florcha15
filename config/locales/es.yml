@@ -6,10 +6,9 @@ es:
   comment:
     title: Mensajes
     send_your_comment: '¡Mandale un mensaje a Flor vos también, iniciá sesión con Facebook ahora!'
-    username: Nombre
-    text: Comentario
-    submit: Enviar
+    submit: ENVIAR
     ago: Hace
+    placeholder: ¿Qué le querés decir a Flor?
   datetime:
     distance_in_words:
       x_days:

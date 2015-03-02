@@ -117,12 +117,7 @@ body h1 {
 
 .message-button {
 	background-color: #FF00A5;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 10px;
-	height: 100px;
-	width: 150px;
-	font-size: 1.5rem;
+	text-align: center;
 }
 
 .name {
@@ -131,9 +126,7 @@ body h1 {
 }
 
 .comment {
-	width: 50%;
 	height: 100px;
-	display: inline-block;
 }
 
 #owl .item {
