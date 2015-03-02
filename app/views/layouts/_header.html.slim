@@ -1,25 +1,18 @@
-.contain-to-grid.sticky.pink
-	nav.top-bar.pink data-options=('sticky_on: large') data-topbar='' role='navigation'
-	  ul.title-area
-	    li.name
-	      h2
-	        a.border-left href=root_path
-	        	= t('navbar.home')
-	  section.top-bar-section
-	    ul.right
-	      li
-	      	a.pink.border-left href='#'
-	      		= t('navbar.invited_stars')
-	      li
-	        = link_to t('navbar.messages'), new_comment_path, class: 'pink border-left border-right'
+.pink
+  .fixed
+    nav.top-bar.pink data-options=('sticky_on: large') data-topbar='' role='navigation'
+      .large-12.small-12.columns.center
+        .medium-2.small-2.columns.border-right.home
+          = link_to t('navbar.home'), root_path, class: 'home'
+        .medium-2.small-2.columns.border-right
+          = link_to t('navbar.the_party'), party_index_path, class: 'nav-item'
+        .medium-2.small-2.columns.border-right
+          = link_to t('navbar.invited_stars'), party_index_path, class: 'nav-item'
+        .medium-2.small-2.columns
+          = link_to t('navbar.messages'), new_comment_path, class: 'nav-item'
         - if current_user.present?
-          li
-            = link_to t('application.logout', name: current_user.name), destroy_user_session_path, clas: 'pink border-right'
-	    ul.left
-	      li
-	        a.pink.border-left.border-right href=party_index_path
-	        	= t('navbar.the_party')
-
+          .medium-2.small-2.columns
+            = link_to ('application.logout', name: current_user.full_name), destroy_user_session_path
 #owl.owl-carousel.owl-theme
   .item
     = image_tag 'back1.png', class: 'background'
