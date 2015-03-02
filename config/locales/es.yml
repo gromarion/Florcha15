@@ -41,15 +41,15 @@ es:
   footer:
     info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015'
   invited_stars:
-    title: ESTRELLAS INVITADAS
-    carlitos: CARLOS
-    mariela: MARIELA
-    octi: Octi
-    ivan: Iván
-    mario: Mario
-    stella: Stella
-    german: Germán
-    fede: Fede
+    title: Estrellas Invitadas
+    carlitos: Carlos
+    mariela: Mariela
+    brothers: Los hermanitos
+    stella_and_mario: Stella y Mario
+    fede_and_german: Fede y Germán
+    marisa: Marisa
+    orlando: Orlando
+    virgi: Virgi
   welcome:
     the_party: LA FIESTA
     party_address: 27 de Junio a las XXX en XXX. La entrada se encuentra en XXX.

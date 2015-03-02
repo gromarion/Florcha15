@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'welcome/index'
   get 'party/index'
+  get 'invited_stars/index'
 end

@@ -49,6 +49,10 @@ body h1 {
   color: #FF00A5;
 }
 
+.handwrite {
+  font-family: 'PR8 Charade', arial;
+}
+
 .large {
 	font-size: 7rem;
 }
@@ -83,8 +87,16 @@ body h1 {
 
 .parent_photo {
 	height: 300px;
+}
+
+.pink-border {
 	border: 5px solid;
 	border-color: #FF00A5;
+}
+
+.pink-background {
+	background-color: #FF00A5;
+	color: white;
 }
 
 .minusculus {
