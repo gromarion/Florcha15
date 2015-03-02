@@ -167,6 +167,10 @@ body h1 {
 	display: block;
 }
 
+.right {
+	text-align: right;
+}
+
 .home:hover {
 	color: white;
 	background-color: #FF00A5;

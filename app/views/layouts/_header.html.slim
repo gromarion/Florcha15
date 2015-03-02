@@ -10,7 +10,7 @@
           = link_to t('navbar.invited_stars'), party_index_path, class: 'nav-item'
         .large-1.small-1.columns
           = link_to t('navbar.messages'), new_comment_path, class: 'nav-item'
-        .large-5.small-5.columns
+        .large-5.small-5.columns.right
           - if current_user.present?
             = link_to t('application.logout', name: current_user.full_name), destroy_user_session_path, class: 'nav-item'
           - else
