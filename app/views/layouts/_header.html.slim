@@ -6,11 +6,11 @@
           = link_to t('navbar.home'), root_path, class: 'home'
         .large-2.small-2.columns.border-right
           = link_to t('navbar.the_party'), party_index_path, class: 'nav-item'
-        .large-4.small-4.columns.border-right
+        .large-3.small-3.columns.border-right
           = link_to t('navbar.invited_stars'), party_index_path, class: 'nav-item'
         .large-1.small-1.columns
           = link_to t('navbar.messages'), new_comment_path, class: 'nav-item'
-        .large-4.small-4.columns
+        .large-5.small-5.columns
           - if current_user.present?
             = link_to t('application.logout', name: current_user.full_name), destroy_user_session_path, class: 'nav-item'
           - else
