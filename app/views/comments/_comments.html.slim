@@ -1,9 +1,10 @@
 - @comments.each do |c|
-  .large-12.small-12.columns.message
-    h1.small
-      = c.username
-    p.italic
-      = c.text
-    span
-      = "#{t('comment.ago')} #{time_ago_in_words(c.created_at)}"
+  .row
+    .large-12.small-12.columns.message
+      h1.small
+        = c.username
+      p.italic
+        = c.text
+      span
+        = "#{t('comment.ago')} #{time_ago_in_words(c.created_at)}"
   br
