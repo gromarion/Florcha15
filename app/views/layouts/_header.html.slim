@@ -1,7 +1,7 @@
 .pink
   .fixed
     nav.top-bar.pink data-options=('sticky_on: large') data-topbar='' role='navigation'
-      .large-11.small-11.columns.center
+      .large-12.small-12.columns.center
         .medium-2.small-2.columns.border-right.home
           = link_to t('navbar.home'), root_path, class: 'home'
         .medium-2.small-2.columns.border-right
@@ -10,7 +10,7 @@
           = link_to t('navbar.invited_stars'), party_index_path, class: 'nav-item'
         .medium-2.small-2.columns
           = link_to t('navbar.messages'), new_comment_path, class: 'nav-item'
-        .medium-2.small-2.columns
+        .medium-4.small-2.columns
           - if current_user.present?
             = link_to t('application.logout', name: current_user.full_name), destroy_user_session_path
           - else
