@@ -12,7 +12,7 @@
           = link_to t('navbar.messages'), new_comment_path, class: 'nav-item'
         .medium-4.small-2.columns
           - if current_user.present?
-            = link_to t('application.logout', name: current_user.full_name), destroy_user_session_path
+            = link_to t('application.logout', name: current_user.full_name), destroy_user_session_path, class: 'nav-item'
           - else
             = link_to t('application.login'), user_omniauth_authorize_path(:facebook), class: 'nav-item'
 #owl.owl-carousel.owl-theme
