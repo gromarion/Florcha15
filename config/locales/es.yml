@@ -29,7 +29,7 @@ es:
   party:
     party_section:
       title: LA FIESTA
-      info: Te espero el 27 de Junio a las XXX en XXX
+      info: Te espero el Sábado 27 de Junio a las 21 hs en el salón Desert. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
     how_to_get:
       title: CÓMO LLEGAR
       info: Explicación de cómo llegar al salón.
@@ -56,9 +56,11 @@ es:
     willy: Willy
     mariano: El increíble Marian
     macarena: Maca
+  the_party:
+    title: La fiesta
   welcome:
     the_party: LA FIESTA
-    party_address: 27 de Junio a las XXX en XXX. La entrada se encuentra en XXX.
+    party_address: Sábado 27 de Junio a las 21 hs en el salón Desert. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
     my_parents: MIS PAPIS
     thanks: ¡Gracias por todo!
     rsvp: CONFIRMAR ASISTENCIA
