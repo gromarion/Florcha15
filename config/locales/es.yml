@@ -39,6 +39,7 @@ es:
       title: SI LLUEVE
       info: '¡No se suspende por lluvia! Pero si sabés de alguna cábala para que no llueva, ¡dejanos un %{message}!'
       message_link: mensaje
+    photos_soon: ¡Próximamente las fotos de la fiesta!
   footer:
     info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015'
   invited_stars:
