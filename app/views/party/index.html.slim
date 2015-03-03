@@ -1,5 +1,5 @@
 h1.center.medium
-  = t('the_party.title')
+  = t('party.title')
 br
 .row
   .large-12.columns
@@ -17,14 +17,22 @@ br
   .large-6.small-6.columns
     h4
       = t('party.how_to_get.title')
-    p
+    p.justified-text
       = t('party.how_to_get.info')
-  .large-4.columns
-  .large-8.columns
+br
+.row
+  large-6.small-6.columns
+    h4.center
+      = t('party.dont_drive_drunk')
+  .large-6.columns
+    = image_tag('saloon4.png', class: 'party-photo')
+br
+.row
+  .large-6.columns
+    = image_tag('saloon5.png', class: 'party-photo')
+  .large-6.small-6.columns
     h4
       = t('party.if_rains.title')
-    .row
-      .large-12.columns
-        p
-          = t('party.if_rains.info', message: link_to(t('party.if_rains.message_link'), new_comment_path)).html_safe
-  .large-4.columns
+    p.justified-text
+      = t('party.if_rains.info', message: link_to(t('party.if_rains.message_link'), new_comment_path)).html_safe
+br
