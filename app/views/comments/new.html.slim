@@ -6,14 +6,22 @@
           = f.text_area :text, class: 'comment', placeholder: t('comment.placeholder')
           = f.submit t('comment.submit'), class: 'button message-button right'
   - else
+    br
     .row.center
-      .large-12.small-12.columns
-        .large-2.small-2.columns
-          a.facebook href=user_omniauth_authorize_path(:facebook)
-            = image_tag 'facebook_logo.png', class: 'facebook-logo'
-        .large-10.small-10.columns
-          p.facebook.tiny
-            = t('comment.send_your_comment')
+      a.facebook href=user_omniauth_authorize_path(:facebook)
+        .large-6.small-6.columns.facebook-login
+          .large-2.small-2.columns
+            h2.large.facebook-logo
+              = 'f'
+          .large-10.small-10.columns
+            p.nav-link.facebook-login-text.justified-text
+              br
+              = t('comment.send_your_comment')      
   h1.medium.shadow-text
     = t('comment.title')
+  - if @comments.size == 0
+    .center
+      = image_tag('message.png')
+    p.tiny.center
+      = t('comment.no_comments')
 = render 'comments'

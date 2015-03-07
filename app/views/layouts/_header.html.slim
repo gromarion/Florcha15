@@ -2,19 +2,31 @@
   .fixed
     nav.top-bar.pink data-options=('sticky_on: large') data-topbar='' role='navigation'
       .large-12.small-12.columns.center
-        .large-1.small-1.columns.border-right.home
-          = link_to t('navbar.home'), root_path, class: 'home'
-        .large-2.small-2.columns.border-right
-          = link_to t('navbar.the_party'), party_index_path, class: 'nav-item'
-        .large-3.small-3.columns.border-right
-          = link_to t('navbar.invited_stars'), invited_stars_index_path, class: 'nav-item'
-        .large-1.small-1.columns
-          = link_to t('navbar.messages'), new_comment_path, class: 'nav-item'
-        .large-5.small-5.columns.right
+        .large-1.small-1.columns.border-right.home.home-item
+          a href=root_path
+            .nav-link
+              = t('navbar.home')
+        .large-2.small-2.columns.border-right.nav-item
+          a href=party_index_path
+            .nav-link
+              = t('navbar.the_party')
+        .large-3.small-3.columns.border-right.nav-item
+          a href=invited_stars_index_path
+            .nav-link
+              = t('navbar.invited_stars')
+        .large-1.small-1.columns.nav-item
+          a href=new_comment_path
+            .nav-link
+              = t('navbar.messages')
+        .large-5.small-5.columns.right.nav-item
           - if current_user.present?
-            = link_to t('application.logout', name: current_user.full_name), destroy_user_session_path, class: 'nav-item'
+            a href=destroy_user_session_path
+              .nav-link
+                = t('application.logout', name: current_user.full_name)
           - else
-            = link_to t('application.login'), user_omniauth_authorize_path(:facebook), class: 'nav-item'
+            a href=user_omniauth_authorize_path(:facebook)
+              .nav-link
+                = t('application.login')
 #owl.owl-carousel.owl-theme
   .item
     = image_tag 'back1.png', class: 'background'
@@ -24,5 +36,13 @@
     = image_tag 'back3.png', class: 'background'
   .item
     = image_tag 'back4.png', class: 'background'
+  .item
+    = image_tag 'back5.png', class: 'background'
+  .item
+    = image_tag 'back6.png', class: 'background'
+  .item
+    = image_tag 'back7.png', class: 'background'
+  .item
+    = image_tag 'back8.png', class: 'background'
 h1.application-title.large.shadow-text
   = t('application.title')

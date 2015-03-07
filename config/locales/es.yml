@@ -5,7 +5,8 @@ es:
     login: INICIAR SESIÓN
   comment:
     title: Mensajes
-    send_your_comment: '¡Mandale un mensaje a Flor vos también, iniciá sesión con Facebook ahora!'
+    send_your_comment: '¡Mandale un mensaje a Flor vos también, iniciá sesión con Facebook haciendo click acá!'
+    no_comments: No hay mensajes para mostrar. ¡Iniciá sesión con Facebook y sé el primero en escribirle a Flor!
     submit: ENVIAR
     ago: Hace
     placeholder: ¿Qué le querés decir a Flor?
@@ -30,7 +31,7 @@ es:
     title: La fiesta
     party_section:
       title: LA FIESTA
-      info: Te espero el Sábado 27 de Junio a las 21 hs en el salón Desert. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
+      info: Te espero el Sábado 27 de Junio a las 21 hs en el salón <a href='http://desert-eventos.com.ar/'>Desert</a>. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
     how_to_get:
       title: CÓMO LLEGAR
       info: Explicación de cómo llegar al salón.
@@ -60,7 +61,7 @@ es:
     macarena: Maca
   welcome:
     the_party: LA FIESTA
-    party_address: Sábado 27 de Junio a las 21 hs en el salón Desert. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
+    party_address: Sábado 27 de Junio a las 21 hs en el salón <a href='http://desert-eventos.com.ar/'>Desert</a>. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
     my_parents: MIS PAPIS
     thanks: ¡Gracias por todo!
     rsvp: CONFIRMAR ASISTENCIA

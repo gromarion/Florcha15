@@ -34,6 +34,10 @@
 	background: #FF00A5 !important;
 }
 
+.pink-font {
+	color: #FF00A5;
+}
+
 .border-left {
 	border-left: 1px solid;
 	border-color: white;
@@ -163,20 +167,44 @@ body h1 {
 }
 
 .nav-item {
-	color: white;
 	display: block;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+
+.nav-link {
+	color: white;
 }
 
 .nav-item:hover {
-	color: #FF00A5;
 	background-color: white;
+}
+
+.nav-item:hover .nav-link {
+	color: #FF00A5;
+}
+
+.home-item:hover .nav-link {
+	color: white;
 }
 
 .home {
 	font-weight: bolder;
 	background-color: white;
-	color: #FF00A5;
 	display: block;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.home .nav-link {
+	color: #FF00A5;
 }
 
 .right {
@@ -189,11 +217,46 @@ body h1 {
 }
 
 .facebook-logo {
-	width: 100px;
+	font-weight: bolder;
 }
 
 .facebook {
 	display: inline-block;
+}
+
+.facebook-login {
+	border: 3px solid;
+	border-color: #FF00A5;
+	border-radius: 10px;
+	background-color: #FF00A5;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.facebook-login h2 {
+	color: white;
+	width: 50%;
+}
+
+.facebook-login:hover {
+	border: 3px solid;
+	border-color: #FF00A5;
+	background: white;
+}
+
+.facebook-login-text {
+	font-size: 20px;
+}
+
+.facebook-login:hover h2 {
+	color: #FF00A5;
+}
+
+.facebook-login:hover p {
+	color: #FF00A5;
 }
 
 .footer {
