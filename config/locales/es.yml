@@ -45,20 +45,22 @@ es:
     info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015'
   invited_stars:
     title: Estrellas Invitadas
-    beba: Beba
+    beba: Abuela Beba
     nena: Tía nena
     carlitos: Carlos
     mariela: Mariela
-    brothers: Los hermanitos
-    stella_and_mario: Stella y Mario
+    brothers: Octi e Iván
+    stella_and_mario: Tía Stella y Tío Mario
     fede_and_german: Fede y Germán
     grandma: La nonna
-    marisa: Marisa
-    orlando: Orlando
+    marisa: Tía Marisa
+    orlando: Tío Orlando
+    mercedes: Tía Mercedes
     virgi: Virgi
     emilce: Emi
-    luli: La Luli
-    willy: Willy
+    lucy: Luci
+    luli: Tía Luli
+    willy: Tío Willy
     mariano: El increíble Marian
     macarena: Maca
   welcome:
@@ -68,3 +70,4 @@ es:
     thanks: ¡Gracias por todo!
     rsvp: CONFIRMAR ASISTENCIA
     rsvp_info: 'Para confirmar tu asistencia, por favor llamanos o mandanos un mail a XXX o XXX.'
+    my_brothers: MIS HERMANOS

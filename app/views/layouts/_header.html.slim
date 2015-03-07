@@ -10,7 +10,7 @@
           a href=party_index_path
             .nav-link
               = t('navbar.the_party')
-        .large-2.small-2.columns.border-right.nav-item
+        .large-3.small-3.columns.border-right.nav-item
           a href=invited_stars_index_path
             .nav-link
               = t('navbar.invited_stars')
@@ -18,11 +18,11 @@
           a href=new_comment_path
             .nav-link
               = t('navbar.messages')
-        .large-5.small-5.columns.right.nav-item
+        .large-4.small-4.columns.right.nav-item
           - if current_user.present?
             a href=destroy_user_session_path
               .nav-link
-                = t('application.logout', name: current_user.full_name)
+                = t('application.logout', name: truncate(current_user.full_name, length: 15))
           - else
             a href=user_omniauth_authorize_path(:facebook)
               .nav-link
