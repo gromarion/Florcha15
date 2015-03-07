@@ -22,7 +22,7 @@
           - if current_user.present?
             a href=destroy_user_session_path
               .nav-link
-                = t('application.logout', name: truncate(current_user.full_name, length: 15))
+                = t('application.logout', name: truncate(current_user.full_name, length: 20))
           - else
             a href=user_omniauth_authorize_path(:facebook)
               .nav-link
