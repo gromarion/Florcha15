@@ -9,7 +9,7 @@ class CommentsController < ApplicationController
 			username: current_user.full_name,
 			text: params[:comment][:text]
 		)
-		redirect_to new_comment_path
+		redirect_to comments_new_path
 	end
 
 	private
