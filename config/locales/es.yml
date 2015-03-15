@@ -38,7 +38,7 @@ es:
     dont_drive_drunk: 'SI BEBE, NO CONDUZCA'
     if_rains:
       title: SI LLUEVE
-      info: '¡No se suspende por lluvia! Pero si sabés de alguna cábala para que no llueva, ¡dejanos un %{message}!'
+      info: '¡No se suspende por lluvia! Pero si sabés de alguna cábala para que no llueva, ¡no dudes en dejarme un %{message}!'
       message_link: mensaje
     photos_soon: ¡Próximamente las fotos de la fiesta!
   footer:
