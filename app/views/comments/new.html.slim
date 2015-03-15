@@ -1,7 +1,7 @@
 .row
   br
   - if current_user.present?
-    = form_for :comment, url: comments_path, html: { class: 'center' } do |f|
+    = form_for :comment, url: comments_create_path, html: { class: 'center' } do |f|
       .row
         .large-6.small-6.columns.center
           = f.text_area :text, class: 'comment', placeholder: t('comment.placeholder')
