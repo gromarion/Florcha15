@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   devise_scope :user do
 	  get 'sign_out', to: 'devise/sessions#destroy', as: :destroy_user_session
 	end
-  resources :comments
+  get 'comments/new'
+  post 'comments/create'
   root 'welcome#index'
   get 'welcome/index'
   get 'party/index'

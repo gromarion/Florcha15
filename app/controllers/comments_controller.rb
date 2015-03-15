@@ -1,8 +1,4 @@
 class CommentsController < ApplicationController
-	def index
-		fetch_comments
-	end
-
 	def new
 		fetch_comments
 	end
