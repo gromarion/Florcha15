@@ -26,6 +26,11 @@
 	border-color: #FF00A5;
 }
 
+.pagination {
+	font-size: 25px;
+  color: #FF00A5;
+}
+
 #comment_text {
 	resize: none;
 }
