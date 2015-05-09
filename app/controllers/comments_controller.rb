@@ -15,7 +15,7 @@ class CommentsController < ApplicationController
 	private
 
 	def fetch_comments
-		@comments = Comment.all.order(created_at: 'DESC')
+		@comments = Comment.all.order(created_at: 'DESC').page params[:page]
 		@comments = [] if @comments == nil
 	end
 end
