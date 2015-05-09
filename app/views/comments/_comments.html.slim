@@ -8,5 +8,6 @@
       span
         = "#{t('comment.ago')} #{time_ago_in_words(c.created_at)}"
   br
-
-= paginate @comments
+.row
+  .center
+    = paginate @comments

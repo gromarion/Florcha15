@@ -71,3 +71,10 @@ es:
     rsvp: CONFIRMAR ASISTENCIA
     rsvp_info: 'Para confirmar tu asistencia, por favor llamanos o mandanos un mail a XXX o XXX.'
     my_brothers: MIS HERMANOS
+  views:
+    pagination:
+      first: '&laquo; Primero'
+      last: 'Último &raquo;'
+      previous: '&lsaquo; Anterior'
+      next: 'Siguiente &rsaquo;'
+      truncate: '&hellip;'
