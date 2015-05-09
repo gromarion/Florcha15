@@ -22,6 +22,12 @@ es:
       x_minutes:
         one: 1 minuto
         other: '%{count} minutos'
+      about_x_weeks:
+        one: 1 semana
+        other: '%{count} semanas'
+      about_x_months:
+        one: 1 mes
+        other: '%{count} meses'
   navbar:
     home: INICIO
     the_party: LA FIESTA
