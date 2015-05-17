@@ -37,10 +37,10 @@ es:
     title: La fiesta
     party_section:
       title: LA FIESTA
-      info: Te espero el Sábado 27 de Junio a las 21 hs en el salón <a href='http://desert-eventos.com.ar/'>Desert</a>. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
+      info: Te espero el Sábado 27 de Junio a las 21 hs en el salón <a href='http://desert-eventos.com.ar/' target='blank'>Desert</a>. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
     how_to_get:
       title: CÓMO LLEGAR
-      info: Explicación de cómo llegar al salón.
+      info: "Para más información, consulte el sitio de <a href='http://desert-eventos.com.ar/' target='blank'>Desert</a>."
     dont_drive_drunk: 'SI BEBE, NO CONDUZCA'
     if_rains:
       title: SI LLUEVE
@@ -48,7 +48,7 @@ es:
       message_link: mensaje
     photos_soon: ¡Próximamente las fotos de la fiesta!
   footer:
-    info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015 | <a href="//www.iubenda.com/privacy-policy/776506"> Política de privacidad </a>'
+    info: 'Sitio web creado y diseñado por Germán Rodrigo Romarión - 2015 | <a href="//www.iubenda.com/privacy-policy/776506" target="blank"> Política de privacidad </a>'
   invited_stars:
     title: Estrellas Invitadas
     beba: Abuela Beba
@@ -71,7 +71,7 @@ es:
     macarena: Maca
   welcome:
     the_party: LA FIESTA
-    party_address: Sábado 27 de Junio a las 21 hs en el salón <a href='http://desert-eventos.com.ar/'>Desert</a>. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
+    party_address: Sábado 27 de Junio a las 21 hs en el salón <a href='http://desert-eventos.com.ar/' target='blank'>Desert</a>. La entrada se encuentra en Ruta Panamericana S/n - Vistalba.
     my_parents: MIS PAPIS
     thanks: ¡Gracias por todo!
     rsvp: CONFIRMAR ASISTENCIA
